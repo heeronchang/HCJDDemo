@@ -1,0 +1,310 @@
+/* main start */
+
+.main {
+  position: relative;
+}
+
+.main_inner {
+  height: 480px;
+  position: relative;
+  z-index: 1;
+}
+
+/* left start */
+
+.main_inner_left {
+  width: 190px;
+  height: 464px;
+  float: left;
+  padding-top: 15px;
+  background-color: #fefefe;
+  border-top: 1px solid #ededed;
+}
+
+.main_inner_left li {
+  height: 28px;
+  line-height: 28px;
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+.main_inner_left li:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.main_inner_left li a {
+  color: #626262;
+  font-size: 14px;
+}
+
+.main_inner_left li a:hover {
+  color: #f10215;
+}
+
+/* left end */
+
+/* middle start */
+
+.main_inner_mid {
+  width: 790px;
+  height: 480px;
+  float: left;
+  margin-left: 10px;
+}
+
+.main_inner_mid_top {
+  height: 340px;
+  background-color: pink;
+  position: relative;
+  overflow: hidden;
+}
+
+.arr_l, .arr_r {
+  position: absolute;
+  top: 50%;
+  margin-top: -30px;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 30px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-family: "icomoon";
+  font-size: 20px;
+  color: #fff;
+}
+
+.arr_l:hover, .arr_r:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.arr_l {
+  left: 0;
+}
+
+.arr_r {
+  right: 0;
+}
+
+.main_inner_mid_top ol {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -90px;
+  padding: 0;
+  width: 180px;
+  height: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  list-style: none;
+}
+
+.main_inner_mid_top ol li {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #fff;
+  float: left;
+  margin: 4px 5px;
+  cursor: pointer;
+}
+
+.main_inner_mid_top .current {
+  background-color: #f10215;
+}
+
+.main_inner_mid_bottom {
+  background-color: skyblue;
+  position: relative;
+  margin-top: 10px;
+}
+
+.main_inner_mid_bottom div {
+  width: 390px;
+  height: 130px;
+  float: left;
+  overflow: hidden;
+}
+
+.main_inner_mid_bottom img {
+  width: 100%;
+}
+
+.main_inner_mid_bottom .main_inner_mid_bottom_img2 {
+  margin-left: 10px;
+}
+
+.main_inner_right {
+  width: 190px;
+  height: 480px;
+  float: right;
+}
+
+/* middle end */
+
+/* right start */
+
+.user {
+  padding: 15px 15px;
+  background-color: #ffffff;
+}
+
+.user_info {
+  padding-left: 54px;
+  font-size: 12px;
+  color: #747474;
+  line-height: 20px;
+  position: relative;
+}
+
+.user_info a {
+  font-size: 12px;
+  color: #747474;
+}
+
+.user_info a:hover {
+  color: #f10215;
+}
+
+.user_info .user_avatar {
+  display: block;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.user_info .user_avatar img {
+  width: 100%;
+  height: 100%;
+}
+
+.user_profit a {
+  width: 70px;
+  height: 20px;
+  border: 1px solid #f10215;
+  display: inline-block;
+  font-size: 12px;
+  color: #f10215;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.user_profit a:hover {
+  color: #fff;
+  background-color: #f10215;
+}
+
+.news {
+  height: 154px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  background-color: #ffffff;
+}
+
+.tab_hd {
+  border-bottom: 1px solid #ccc;
+  padding: 8px 0;
+  position: relative;
+  margin: 0 10px;
+}
+
+.tab_hd a {
+  font-size: 12px;
+  color: #747474;
+  margin: 0 4px;
+}
+
+.news .more {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+}
+
+.promotion {
+  border-right: 1px solid #ccc;
+  padding-right: 10px;
+}
+
+.indicator {
+  width: 35px;
+  height: 2px;
+  background-color: #f10215;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+}
+
+.tab_bd {
+  margin: 10px 10px 0;
+}
+
+.tab_bd li {
+  height: 23px;
+  line-height: 23px;
+}
+
+.tab_bd li a {
+  color: #747474;
+  font-size: 14px;
+}
+
+.tab_bd li a:hover {
+  color: #f10215;
+}
+
+.user_service {
+  height: 209px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+.user_service ul {
+  width: 195px;
+}
+.user_service li {
+  width: 47px;
+  height: 69px;
+  float: left;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.user_service li a {
+  width: 100%;
+  height: 100%;
+  /* line-height: 69px; */
+  text-align: center;
+  font-size: 12px;
+  color: #747474;
+  display: block;
+}
+
+.user_service i {
+  margin: 10px auto;
+  font-family: "icomoon";
+  font-style: normal;
+  font-size: 14px;
+  display: inline-block;
+}
+
+/* right end */
+
+/* ad start */
+
+.main_inner_ad {
+  width: 100%;
+  height: 480px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.main_inner_ad a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* ad end */
+
+/* main end */
